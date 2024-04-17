@@ -35,6 +35,8 @@ public class AnonymousInnerClass {
             //here we are not creating obj of abstract class, as we cannot create obj of abstract class, we are creating object of Anonymous inner class
 
         };
+
+        obj1.show();
     }
     
 }
