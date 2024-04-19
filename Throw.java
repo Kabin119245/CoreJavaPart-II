@@ -1,3 +1,13 @@
+class KabinException extends Exception {
+
+    public KabinException(String message) {
+
+        super(message);
+        
+    }
+
+}
+
 public class Throw {
 
     public static void main(String[] args) {
@@ -8,11 +18,16 @@ public class Throw {
              j = 18/i;
 
              if (j == 0 ){
-                 throw new ArithmeticException("I don't want to print Zero");
+                 throw new KabinException("I don't want to print Zero");
              }
         }
 
         catch(ArithmeticException e){
+             j = 18/1;
+            System.out.println(e);
+        }
+
+        catch(Exception e){
              j = 18/1;
             System.out.println(e);
         }
