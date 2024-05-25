@@ -9,7 +9,7 @@ public class TakingInput {
         // int num = System.in.read();
         // it gives the ASCII value
         // System.out.println(num);
-        //we have another method bufferReader
+        // we have another method bufferReader
 
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader bf = new BufferedReader(in);
@@ -18,7 +18,7 @@ public class TakingInput {
 
         System.out.println(num);
 
-        //New Method
+        // New Method
         System.out.println("Enter two Numbers");
         Scanner sc = new Scanner(System.in);
 
@@ -31,7 +31,7 @@ public class TakingInput {
         System.out.println(num3);
 
         sc.close();
-        
+
         bf.close();
     }
 }

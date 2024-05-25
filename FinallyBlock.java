@@ -13,12 +13,15 @@ public class FinallyBlock {
 
             num = Integer.parseInt(br.readLine());
             System.out.println(num);
-        } 
+        }
 
-      
+        catch (ArithmeticException e) {
+            System.out.println(e);
+        }
 
         finally {
-            //in finally block we close the resource, beacuse it is going to be executed no matter exception occurs or not
+            // in finally block we close the resource, beacuse it is going to be executed no
+            // matter exception occurs or not
             System.out.println("I am goin to execute irrespective of the exception");
 
             br.close();

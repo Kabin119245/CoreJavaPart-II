@@ -11,7 +11,7 @@ final class C extends A {
 
 }
 
-class D {
+class D { //D cannot extend class A
 
 }
 

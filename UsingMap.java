@@ -8,7 +8,7 @@ public class UsingMap {
     public static void main(String[] args) {
 
         Map<String, Integer> students = new HashMap<String, Integer>();
-        //HashTable also
+        // HashTable also
 
         students.put("Kabin", 100);
         students.put("Kabina", 85);

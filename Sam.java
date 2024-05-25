@@ -13,8 +13,7 @@ public class Sam {
         A obj = ()  -> System.out.println("in new show");
         obj.show();
     
-
-
+        
     //what we used to do 
         // B obj1 = new B(){
         
